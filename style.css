@@ -1,0 +1,17 @@
+body {
+  display: block;
+  margin: 8px;
+}
+.weatherBox {
+  width: 180px;
+  position: fixed;
+  left: 50%;
+  bottom: 50%;
+  transform: translateX(-50%);
+}
+
+.weather {
+  /* padding: 10%; */
+
+  width: 180px;
+}

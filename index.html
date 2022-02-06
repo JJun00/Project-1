@@ -4,7 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="weatherBox">
+      <div class="weather">
+        <form action="">
+          <!-- action attribute above-->
+          <label for="countries">Pick a country</label>
+          <select name="countries" id="countries">
+            <!-- input country names here -->
+            <option value="china">China</option>
+          </select>
+          <br /><br />
+          <input type="submit" value="Submit" />
+          <input type="submit" value="Random Country" />
+        </form>
+      </div>
+      <div class="randomBtn"></div>
+    </div>
+
+    <!-- icon script below -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/d9e14f2bd9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
