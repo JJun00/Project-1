@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="icon"
+      href="https://pbs.twimg.com/profile_images/1342768807891378178/8le-DzgC_400x400.jpg"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Weather</title>
   </head>
   <body>
     <div class="weatherBox">
@@ -17,13 +20,17 @@
           <select name="countries" id="countries">
             <!-- input country names here -->
             <option value="china">China</option>
+            <option value="usa">USA</option>
           </select>
-          <br /><br />
-          <input type="submit" value="Submit" />
-          <input type="submit" value="Random Country" />
+          <span id="submitBtn">
+            <input type="submit" value="Submit" />
+          </span>
+
+          <span id="randomBtn">
+            <input type="submit" value="Random Country" />
+          </span>
         </form>
       </div>
-      <div class="randomBtn"></div>
     </div>
 
     <!-- icon script below -->
