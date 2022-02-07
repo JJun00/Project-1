@@ -2,8 +2,24 @@ body {
   display: block;
   margin: 8px;
 }
+label {
+  font-size: 19px;
+  color: black;
+  background-color: white;
+  padding: 2px 2px 5px;
+  border: 1px;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+
 .weatherBox {
-  width: 340px;
+  width: 400px;
   position: fixed;
   left: 50%;
   bottom: 50%;
@@ -15,4 +31,29 @@ body {
   height: 100%;
   width: 100%;
   z-index: 0;
+}
+
+#submitBtn {
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+
+#submitBtn:hover {
+  cursor: pointer;
+}
+
+#randomBtn {
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+#randomBtn:hover {
+  cursor: pointer;
+}
+
+#countries {
+  height: 31px;
 }
