@@ -1,12 +1,8 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  overflow: auto;
-}
 body {
-  min-width: fit-content;
+  /* min-width: fit-content; */
   height: 100vh;
+  margin: 0;
+  overflow: hidden;
 }
 label {
   font-size: 19px;
