@@ -1,6 +1,12 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
 body {
-  display: block;
-  margin: 8px;
+  min-width: fit-content;
+  height: 100vh;
 }
 label {
   font-size: 19px;
@@ -16,15 +22,6 @@ option {
   white-space: nowrap;
   min-height: 1.2em;
   padding: 0px 2px 1px;
-}
-
-.weatherBox {
-  width: 400px;
-  position: fixed;
-  left: 50%;
-  bottom: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
 }
 
 #background {
@@ -66,4 +63,35 @@ option {
   background-size: 100% 50%;
   background-repeat: no-repeat;
   background-image: url("giphy.gif");
+}
+
+.weatherBox {
+  width: 400px;
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.weatherStats {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 1px;
+  width: 400px;
+  position: fixed;
+  left: 49%;
+  top: 34.5%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  height: 15%;
+}
+
+.currentWeather {
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 18px;
 }
