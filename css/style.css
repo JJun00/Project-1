@@ -26,27 +26,6 @@ option {
   z-index: 0;
 }
 
-#submitBtn {
-  padding: 5px 5px;
-  font-size: 15px;
-  text-align: center;
-  outline: none;
-}
-
-#submitBtn:hover {
-  cursor: pointer;
-}
-
-#randomBtn {
-  padding: 5px 5px;
-  font-size: 15px;
-  text-align: center;
-  outline: none;
-}
-#randomBtn:hover {
-  cursor: pointer;
-}
-
 #countries {
   height: 31px;
 }
@@ -62,7 +41,7 @@ option {
 }
 
 .weatherBox {
-  width: 400px;
+  width: 415px;
   position: fixed;
   left: 50%;
   top: 30%;

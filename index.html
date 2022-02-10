@@ -15,17 +15,9 @@
     <div id="weatherGif"></div>
     <div class="weatherBox">
       <div class="weather">
-        <form action="">
-          <!-- action attribute above-->
-          <label for="countries">Pick a country</label>
-          <select name="countries" id="countries">
-            <!-- input country names here -->
-            <option value="china">China</option>
-            <option value="usa">USA</option>
-          </select>
-          <input type="button" id="submitBtn" value="Submit" />
-          <input type="button" id="randomBtn" value="Random Country" />
-        </form>
+        <input id="countryName" value="Country" />
+        <button onclick="randomLocation()">Randomize</button>
+        <button onclick="getWeather()">Get Weather Forecast</button>
       </div>
     </div>
     <div class="weatherStats">
