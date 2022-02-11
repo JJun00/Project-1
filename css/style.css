@@ -63,7 +63,7 @@ option {
   height: 15%;
 }
 
-.currentWeather {
+#currentWeather {
   margin-left: 10%;
 }
 
